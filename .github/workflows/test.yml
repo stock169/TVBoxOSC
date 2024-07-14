@@ -11,7 +11,7 @@ on:
         type: boolean
       donotpublish:
         description: '构建后不提交发布新版'
-        required: false
+        required: true
         type: boolean
 
 jobs:
@@ -24,7 +24,7 @@ jobs:
           - userName: q215613905
             repoName: TVBoxOS
             branchName: main
-          - userName: takagen99
+          - userName: stock169
             repoName: Box
             branchName: main
             java_ver: 17
